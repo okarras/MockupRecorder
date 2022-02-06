@@ -1,0 +1,240 @@
+/* --------------- Global --------------- */
+
+.scroll-pane > .viewport {
+   -fx-background-color: transparent;
+}
+
+.tooltip {
+    -fx-font-size: 12px;
+}
+
+/* --------------- MockupChooser --------------- */
+MockupChooser {
+    -fx-background-color: #222222;
+    -fx-max-width: 280px;
+    -fx-fit-to-width: true;
+}
+
+MockupChooserItem {
+    -fx-padding: 0.7em;
+    /*-fx-background-color: linear-gradient(#333333, #222222);*/
+}
+
+MockupChooserItem:hover {
+    -fx-cursor:open-hand;
+}
+
+MockupChooserItem > Label {
+    -fx-text-fill: #ffffff;
+}
+
+MockupChooserItem.active {
+    -fx-background-color: -fx-focus-color;
+}
+
+/* --------------- MockupPane --------------- */
+MockupPane {
+    
+}
+
+MockupPane #mockupStackPane {
+    -fx-border-width: 0.5em;
+    -fx-border-color: #222222;
+}
+
+/* --------------- RecorderToolBar --------------- */
+RecorderToolBar {
+    -fx-padding: 5px 10px;
+    -fx-background-color: linear-gradient(#333333, #222222);
+}
+
+RecorderToolBar ClockLabel {
+    -fx-padding: 0 3em;
+    -fx-font-size: 3em;
+}
+
+RecorderToolBar #mouseSpeedSlider {
+    -fx-padding: 0 1em;
+    -fx-cursor: hand;
+}
+
+RecorderToolBar #mouseSpeedSlider .axis {
+    -fx-tick-label-fill: #ffffff;
+}
+
+RecorderToolBar #mouseSpeedSlider .track {
+    -fx-background-color: #333333;
+}
+
+RecorderToolBar #mouseSpeedSlider .thumb {
+    -fx-background-color: #aaaaaa, #ffffff, linear-gradient(to right, #eeeeee, #dddddd);
+    -fx-background-insets: 0, 1, 2;
+}
+
+RecorderToolBar ClockLabel,
+RecorderToolBar Button,
+RecorderToolBar #mouseSpeedSlider {
+    -fx-background-color: rgba(255, 255, 255, 0.1);
+    -fx-text-fill: #ffffff;
+    -fx-background-radius: 2px;
+}
+
+RecorderToolBar Button:hover {
+    -fx-background-color: rgba(255, 255, 255, 0.2);
+    -fx-cursor: hand;
+}
+
+RecorderToolBar .start-button {
+    -fx-graphic: url("/application/images/icons8/Record-48.png");
+}
+
+RecorderToolBar .stop-button {
+    -fx-graphic: url("/application/images/icons8/Stop-48.png");
+}
+
+RecorderToolBar .play-button {
+    -fx-graphic: url("/application/images/icons8/Play-48.png");
+}
+
+RecorderToolBar .pause-button {
+    -fx-graphic: url("/application/images/icons8/Pause-48.png");
+}
+
+RecorderToolBar .begin-button {
+    -fx-graphic: url("/application/images/icons8/Skip-to-Start-48.png");
+}
+
+RecorderToolBar .end-button {
+    -fx-graphic: url("/application/images/icons8/End-48.png");
+}
+
+RecorderToolBar .export-button {
+    -fx-graphic: url("/application/images/icons8/Export-48.png");
+}
+
+RecorderToolBar .resize-button {
+    -fx-graphic: url("/application/images/icons8/Resize-48.png");
+}
+
+/* --------------- Recorder ProgressBar --------------- */
+.recorder-progress,
+.recorder-progress .track {
+    -fx-background-color: linear-gradient(#222222, #111111);
+}
+
+.recorder-progress .bar {
+    -fx-min-height:0.5em;
+    -fx-max-height:0.5em;
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+}
+
+/* --------------- TimeLine --------------- */
+RecorderTimeline {
+    -fx-background-color: #333333;
+    -fx-pref-height: 320px;
+    -fx-max-height: 320px;
+}
+
+RecorderTimeline .begin-pane {
+    -fx-background-image: url("images/filmstreifen_anfang.png");
+    -fx-min-width: 72px;
+    -fx-max-width: 72px;
+    -fx-min-height: 300px;
+    -fx-max-height: 300px;
+}
+
+RecorderTimeline .end-pane {
+    -fx-background-image: url("images/filmstreifen_ende.png");
+    -fx-min-width: 113px;
+    -fx-max-width: 113px;
+    -fx-min-height: 300px;
+    -fx-max-height: 300px;
+    -fx-cursor: hand;
+}
+
+/* --------------- RecorderTimelineItem --------------- */
+RecorderTimelineItem {
+    -fx-background-image: url("images/filmstreifen.png");
+    -fx-min-width: 360px;
+    -fx-max-width: 360px;
+    -fx-min-height: 300px;
+    -fx-max-height: 300px;
+}
+
+RecorderTimelineItem.active > ImageView {
+    -fx-effect: dropshadow(three-pass-box, -fx-focus-color, 5, 1, 0, 0);
+}
+
+RecorderTimelineItem:hover {
+    -fx-cursor:open-hand;
+}
+
+RecorderTimelineItem > Label {
+    -fx-text-fill: #ffffff;
+}
+
+RecorderTimelineItem.drag-n-drop-before {
+    -fx-padding: 0 0 0 -0.5em;
+    -fx-border-width: 0 0 0 0.5em;
+    -fx-border-color: #ff0000;
+}
+
+RecorderTimelineItem.drag-n-drop-after {
+    -fx-padding: 0 -0.5em 0 0;
+    -fx-border-width: 0 0.5em 0 0;
+    -fx-border-color: #ff0000;
+}
+
+
+/* --------------- ScrollBar --------------- */
+
+MockupChooser .scroll-bar,
+MockupChooser .scroll-bar .track {
+    -fx-background-color: transparent;
+    -fx-padding: 3px 1px;
+}
+
+RecorderTimeline .scroll-bar,
+RecorderTimeline .scroll-bar .track {
+    -fx-background-color: #000000;
+    -fx-padding: 1px 3px;
+}
+
+MockupChooser .thumb,
+RecorderTimeline .thumb {
+    -fx-background-radius: 16px;
+    -fx-border-color: #222222;
+    -fx-border-width: 1px;
+    -fx-border-radius:16px;
+}
+
+MockupChooser .thumb {
+    -fx-background-color: #aaaaaa, #ffffff, linear-gradient(to right, #eeeeee, #dddddd);
+    -fx-background-insets: 0, 1, 2;
+}
+
+RecorderTimeline .thumb {
+    -fx-background-color: #aaaaaa, #ffffff, linear-gradient(#eeeeee, #dddddd);
+    -fx-background-insets: 0, 1, 2;
+}
+
+MockupChooser .scroll-bar .increment-button,
+MockupChooser .scroll-bar .decrement-button {
+    -fx-background-radius: 0;
+    -fx-padding: 0 0.7em;
+}
+
+RecorderTimeline .scroll-bar .increment-button,
+RecorderTimeline .scroll-bar .decrement-button {
+    -fx-background-radius: 0;
+    -fx-padding: 0.7em 0;
+}
+
+MockupChooser .scroll-bar .increment-arrow,
+MockupChooser .scroll-bar .decrement-arrow,
+RecorderTimeline .scroll-bar .increment-arrow,
+RecorderTimeline .scroll-bar .decrement-arrow {
+    -fx-shape: " ";
+    -fx-padding: 0;
+}

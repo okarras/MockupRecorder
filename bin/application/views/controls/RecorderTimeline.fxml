@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<fx:root hbarPolicy="ALWAYS" onDragDropped="#handleDragDropped" onDragOver="#handleDragOver" type="ScrollPane" vbarPolicy="NEVER" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+   <content>
+      <HBox>
+         <children>
+            <AnchorPane fx:id="beginPane" styleClass="begin-pane" />
+            <HBox fx:id="itemHBox" />
+            <AnchorPane fx:id="endPane" styleClass="end-pane" />
+         </children></HBox>
+   </content>
+</fx:root>

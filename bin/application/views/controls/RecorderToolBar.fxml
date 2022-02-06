@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import application.views.controls.ClockLabel?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.ToolBar?>
+
+<fx:root type="ToolBar" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+  <items>
+    <Button fx:id="startButton" mnemonicParsing="false" styleClass="start-button" text="" />
+    <Button fx:id="stopButton" mnemonicParsing="false" styleClass="stop-button" text="" />
+    <Button fx:id="playButton" mnemonicParsing="false" styleClass="play-button" text="" />
+    <Button fx:id="pauseButton" mnemonicParsing="false" styleClass="pause-button" text="" />
+    <ClockLabel fx:id="clockLabel" maxHeight="1.7976931348623157E308" text="00:00:00" />
+    <Button fx:id="toBeginButton" mnemonicParsing="false" styleClass="begin-button" text="" />
+    <Button fx:id="toEndButton" mnemonicParsing="false" styleClass="end-button" text="" />
+    <Button fx:id="resizeButton" mnemonicParsing="false" styleClass="resize-button" text="" />
+    <Button fx:id="exportButton" mnemonicParsing="false" styleClass="export-button" text="" />
+      <Slider fx:id="mouseSpeedSlider" blockIncrement="1.0" majorTickUnit="0.5" max="2.0" maxHeight="1.7976931348623157E308" min="0.5" minorTickCount="1" showTickLabels="true" showTickMarks="true" snapToTicks="true" value="1.0" />
+  </items>
+</fx:root>

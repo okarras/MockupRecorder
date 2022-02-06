@@ -1,0 +1,3205 @@
+{
+  "viewportWidth" : 800.0,
+  "viewportHeight" : 600.0,
+  "mouseSpeed" : 1.0,
+  "interactions" : [ {
+    "mockup" : "01-login.fxml",
+    "actions" : [ {
+      "@class" : "application.interaction.MouseMoveAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 1066.6666666666667,
+      "localX" : 280.0,
+      "localY" : 16.0
+    }, {
+      "@class" : "application.interaction.MousePressAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "mouseButton" : "PRIMARY"
+    }, {
+      "@class" : "application.interaction.MouseMoveAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 1066.6666666666667,
+      "localX" : 280.0,
+      "localY" : 16.0
+    }, {
+      "@class" : "application.interaction.MouseReleaseAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "mouseButton" : "PRIMARY"
+    }, {
+      "@class" : "application.interaction.MouseClickAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "mouseButton" : "PRIMARY",
+      "clickCount" : 1
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "m",
+      "keyCode" : "M"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "m"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "m",
+      "keyCode" : "M"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "a",
+      "keyCode" : "A"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "a"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "a",
+      "keyCode" : "A"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "x",
+      "keyCode" : "X"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "x"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "x",
+      "keyCode" : "X"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : ".",
+      "keyCode" : "PERIOD"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "."
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : ".",
+      "keyCode" : "PERIOD"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "m",
+      "keyCode" : "M"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "m"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "m",
+      "keyCode" : "M"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "u",
+      "keyCode" : "U"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "u"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "u",
+      "keyCode" : "U"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "s",
+      "keyCode" : "S"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "s"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "s",
+      "keyCode" : "S"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "t",
+      "keyCode" : "T"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "t"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "t",
+      "keyCode" : "T"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "e",
+      "keyCode" : "E"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "e"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "r",
+      "keyCode" : "R"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "r"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "e",
+      "keyCode" : "E"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "r",
+      "keyCode" : "R"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "m",
+      "keyCode" : "M"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "m"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "m",
+      "keyCode" : "M"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "a",
+      "keyCode" : "A"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "a"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "a",
+      "keyCode" : "A"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "n",
+      "keyCode" : "N"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "n"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "n",
+      "keyCode" : "N"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "n",
+      "keyCode" : "N"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "n"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "n",
+      "keyCode" : "N"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "",
+      "keyCode" : "CONTROL"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "",
+      "keyCode" : "ALT_GRAPH"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "q",
+      "keyCode" : "Q"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "@"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "q",
+      "keyCode" : "Q"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "",
+      "keyCode" : "CONTROL"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "",
+      "keyCode" : "ALT_GRAPH"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "d",
+      "keyCode" : "D"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "d"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "d",
+      "keyCode" : "D"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "o",
+      "keyCode" : "O"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "o"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "o",
+      "keyCode" : "O"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "m",
+      "keyCode" : "M"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "m"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "m",
+      "keyCode" : "M"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "a",
+      "keyCode" : "A"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "a"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "a",
+      "keyCode" : "A"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "i",
+      "keyCode" : "I"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "i"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "n",
+      "keyCode" : "N"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "n"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "i",
+      "keyCode" : "I"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "n",
+      "keyCode" : "N"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : ".",
+      "keyCode" : "PERIOD"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "."
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : ".",
+      "keyCode" : "PERIOD"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "t",
+      "keyCode" : "T"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "t"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "t",
+      "keyCode" : "T"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "l",
+      "keyCode" : "L"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "l"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "l",
+      "keyCode" : "L"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "d",
+      "keyCode" : "D"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "d"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#username",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "d",
+      "keyCode" : "D"
+    }, {
+      "@class" : "application.interaction.MouseMoveAction",
+      "target" : "#password",
+      "targetType" : "PasswordField",
+      "duration" : 1066.6666666666667,
+      "localX" : 267.0,
+      "localY" : 14.0
+    }, {
+      "@class" : "application.interaction.MousePressAction",
+      "target" : "#password",
+      "targetType" : "PasswordField",
+      "duration" : 50.0,
+      "mouseButton" : "PRIMARY"
+    }, {
+      "@class" : "application.interaction.MouseMoveAction",
+      "target" : "#password",
+      "targetType" : "PasswordField",
+      "duration" : 1066.6666666666667,
+      "localX" : 267.0,
+      "localY" : 14.0
+    }, {
+      "@class" : "application.interaction.MouseReleaseAction",
+      "target" : "#password",
+      "targetType" : "PasswordField",
+      "duration" : 0.0,
+      "mouseButton" : "PRIMARY"
+    }, {
+      "@class" : "application.interaction.MouseClickAction",
+      "target" : "#password",
+      "targetType" : "PasswordField",
+      "duration" : 0.0,
+      "mouseButton" : "PRIMARY",
+      "clickCount" : 1
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#password",
+      "targetType" : "PasswordField",
+      "duration" : 50.0,
+      "text" : "p",
+      "keyCode" : "P"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#password",
+      "targetType" : "PasswordField",
+      "duration" : 0.0,
+      "character" : "p"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#password",
+      "targetType" : "PasswordField",
+      "duration" : 0.0,
+      "text" : "p",
+      "keyCode" : "P"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#password",
+      "targetType" : "PasswordField",
+      "duration" : 50.0,
+      "text" : "a",
+      "keyCode" : "A"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#password",
+      "targetType" : "PasswordField",
+      "duration" : 0.0,
+      "character" : "a"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#password",
+      "targetType" : "PasswordField",
+      "duration" : 0.0,
+      "text" : "a",
+      "keyCode" : "A"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#password",
+      "targetType" : "PasswordField",
+      "duration" : 50.0,
+      "text" : "s",
+      "keyCode" : "S"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#password",
+      "targetType" : "PasswordField",
+      "duration" : 0.0,
+      "character" : "s"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#password",
+      "targetType" : "PasswordField",
+      "duration" : 0.0,
+      "text" : "s",
+      "keyCode" : "S"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#password",
+      "targetType" : "PasswordField",
+      "duration" : 50.0,
+      "text" : "s",
+      "keyCode" : "S"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#password",
+      "targetType" : "PasswordField",
+      "duration" : 0.0,
+      "character" : "s"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#password",
+      "targetType" : "PasswordField",
+      "duration" : 0.0,
+      "text" : "s",
+      "keyCode" : "S"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#password",
+      "targetType" : "PasswordField",
+      "duration" : 50.0,
+      "text" : "w",
+      "keyCode" : "W"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#password",
+      "targetType" : "PasswordField",
+      "duration" : 0.0,
+      "character" : "w"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#password",
+      "targetType" : "PasswordField",
+      "duration" : 0.0,
+      "text" : "w",
+      "keyCode" : "W"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#password",
+      "targetType" : "PasswordField",
+      "duration" : 50.0,
+      "text" : "o",
+      "keyCode" : "O"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#password",
+      "targetType" : "PasswordField",
+      "duration" : 0.0,
+      "character" : "o"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#password",
+      "targetType" : "PasswordField",
+      "duration" : 0.0,
+      "text" : "o",
+      "keyCode" : "O"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#password",
+      "targetType" : "PasswordField",
+      "duration" : 50.0,
+      "text" : "r",
+      "keyCode" : "R"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#password",
+      "targetType" : "PasswordField",
+      "duration" : 0.0,
+      "character" : "r"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#password",
+      "targetType" : "PasswordField",
+      "duration" : 0.0,
+      "text" : "r",
+      "keyCode" : "R"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#password",
+      "targetType" : "PasswordField",
+      "duration" : 50.0,
+      "text" : "d",
+      "keyCode" : "D"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#password",
+      "targetType" : "PasswordField",
+      "duration" : 0.0,
+      "character" : "d"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#password",
+      "targetType" : "PasswordField",
+      "duration" : 0.0,
+      "text" : "d",
+      "keyCode" : "D"
+    }, {
+      "@class" : "application.interaction.MouseMoveAction",
+      "target" : "#login",
+      "targetType" : "Button",
+      "duration" : 1066.6666666666667,
+      "localX" : 153.0,
+      "localY" : 18.0
+    }, {
+      "@class" : "application.interaction.MousePressAction",
+      "target" : "#login",
+      "targetType" : "Button",
+      "duration" : 50.0,
+      "mouseButton" : "PRIMARY"
+    }, {
+      "@class" : "application.interaction.MouseMoveAction",
+      "target" : "#login",
+      "targetType" : "Button",
+      "duration" : 1066.6666666666667,
+      "localX" : 153.0,
+      "localY" : 18.0
+    }, {
+      "@class" : "application.interaction.MouseReleaseAction",
+      "target" : "#login",
+      "targetType" : "Button",
+      "duration" : 0.0,
+      "mouseButton" : "PRIMARY"
+    }, {
+      "@class" : "application.interaction.MouseClickAction",
+      "target" : "#login",
+      "targetType" : "Button",
+      "duration" : 0.0,
+      "mouseButton" : "PRIMARY",
+      "clickCount" : 1
+    } ]
+  }, {
+    "mockup" : "02-startseite.fxml",
+    "actions" : [ {
+      "@class" : "application.interaction.MouseMoveAction",
+      "target" : "#searchText",
+      "targetType" : "TextField",
+      "duration" : 1066.6666666666667,
+      "localX" : 427.0,
+      "localY" : 14.0
+    }, {
+      "@class" : "application.interaction.MousePressAction",
+      "target" : "#searchText",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "mouseButton" : "PRIMARY"
+    }, {
+      "@class" : "application.interaction.MouseMoveAction",
+      "target" : "#searchText",
+      "targetType" : "TextField",
+      "duration" : 1066.6666666666667,
+      "localX" : 427.0,
+      "localY" : 14.0
+    }, {
+      "@class" : "application.interaction.MouseReleaseAction",
+      "target" : "#searchText",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "mouseButton" : "PRIMARY"
+    }, {
+      "@class" : "application.interaction.MouseClickAction",
+      "target" : "#searchText",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "mouseButton" : "PRIMARY",
+      "clickCount" : 1
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#searchText",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "u",
+      "keyCode" : "U"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#searchText",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "u"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#searchText",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "u",
+      "keyCode" : "U"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#searchText",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "s",
+      "keyCode" : "S"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#searchText",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "s"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#searchText",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "s",
+      "keyCode" : "S"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#searchText",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "b",
+      "keyCode" : "B"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#searchText",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "b"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#searchText",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "b",
+      "keyCode" : "B"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#searchText",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : " ",
+      "keyCode" : "SPACE"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#searchText",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : " "
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#searchText",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : " ",
+      "keyCode" : "SPACE"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#searchText",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "s",
+      "keyCode" : "S"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#searchText",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "s"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#searchText",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "s",
+      "keyCode" : "S"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#searchText",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "t",
+      "keyCode" : "T"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#searchText",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "t"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#searchText",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "t",
+      "keyCode" : "T"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#searchText",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "i",
+      "keyCode" : "I"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#searchText",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "i"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#searchText",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "i",
+      "keyCode" : "I"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#searchText",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "c",
+      "keyCode" : "C"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#searchText",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "c"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#searchText",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "c",
+      "keyCode" : "C"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#searchText",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "k",
+      "keyCode" : "K"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#searchText",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "k"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#searchText",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "k",
+      "keyCode" : "K"
+    }, {
+      "@class" : "application.interaction.MouseMoveAction",
+      "target" : "#searchButton",
+      "targetType" : "Button",
+      "duration" : 1066.6666666666667,
+      "localX" : 53.0,
+      "localY" : 15.0
+    }, {
+      "@class" : "application.interaction.MousePressAction",
+      "target" : "#searchButton",
+      "targetType" : "Button",
+      "duration" : 50.0,
+      "mouseButton" : "PRIMARY"
+    }, {
+      "@class" : "application.interaction.MouseMoveAction",
+      "target" : "#searchButton",
+      "targetType" : "Button",
+      "duration" : 1066.6666666666667,
+      "localX" : 53.0,
+      "localY" : 15.0
+    }, {
+      "@class" : "application.interaction.MouseReleaseAction",
+      "target" : "#searchButton",
+      "targetType" : "Button",
+      "duration" : 0.0,
+      "mouseButton" : "PRIMARY"
+    }, {
+      "@class" : "application.interaction.MouseClickAction",
+      "target" : "#searchButton",
+      "targetType" : "Button",
+      "duration" : 0.0,
+      "mouseButton" : "PRIMARY",
+      "clickCount" : 1
+    } ]
+  }, {
+    "mockup" : "03-usb-sticks.fxml",
+    "actions" : [ {
+      "@class" : "application.interaction.MouseMoveAction",
+      "target" : "#size64",
+      "targetType" : "CheckBox",
+      "duration" : 1066.6666666666667,
+      "localX" : 9.0,
+      "localY" : 9.0
+    }, {
+      "@class" : "application.interaction.MousePressAction",
+      "target" : "#size64",
+      "targetType" : "CheckBox",
+      "duration" : 50.0,
+      "mouseButton" : "PRIMARY"
+    }, {
+      "@class" : "application.interaction.MouseMoveAction",
+      "target" : "#size64",
+      "targetType" : "CheckBox",
+      "duration" : 1066.6666666666667,
+      "localX" : 9.0,
+      "localY" : 9.0
+    }, {
+      "@class" : "application.interaction.MouseReleaseAction",
+      "target" : "#size64",
+      "targetType" : "CheckBox",
+      "duration" : 0.0,
+      "mouseButton" : "PRIMARY"
+    }, {
+      "@class" : "application.interaction.MouseClickAction",
+      "target" : "#size64",
+      "targetType" : "CheckBox",
+      "duration" : 0.0,
+      "mouseButton" : "PRIMARY",
+      "clickCount" : 1
+    } ]
+  }, {
+    "mockup" : "03-usb-sticks-2.fxml",
+    "actions" : [ {
+      "@class" : "application.interaction.MouseMoveAction",
+      "target" : "#mockupBorderPane",
+      "targetType" : "BorderPane",
+      "duration" : 1066.6666666666667,
+      "localX" : 569.0,
+      "localY" : 224.0
+    }, {
+      "@class" : "application.interaction.MousePressAction",
+      "target" : "#mockupBorderPane",
+      "targetType" : "BorderPane",
+      "duration" : 50.0,
+      "mouseButton" : "PRIMARY"
+    }, {
+      "@class" : "application.interaction.MouseMoveAction",
+      "target" : "#mockupBorderPane",
+      "targetType" : "BorderPane",
+      "duration" : 1066.6666666666667,
+      "localX" : 569.0,
+      "localY" : 224.0
+    }, {
+      "@class" : "application.interaction.MouseReleaseAction",
+      "target" : "#mockupBorderPane",
+      "targetType" : "BorderPane",
+      "duration" : 0.0,
+      "mouseButton" : "PRIMARY"
+    }, {
+      "@class" : "application.interaction.MouseClickAction",
+      "target" : "#mockupBorderPane",
+      "targetType" : "BorderPane",
+      "duration" : 0.0,
+      "mouseButton" : "PRIMARY",
+      "clickCount" : 1
+    } ]
+  }, {
+    "mockup" : "04-artikel.fxml",
+    "actions" : [ {
+      "@class" : "application.interaction.MouseMoveAction",
+      "target" : "#addToCart",
+      "targetType" : "Button",
+      "duration" : 1066.6666666666667,
+      "localX" : 41.0,
+      "localY" : 16.0
+    }, {
+      "@class" : "application.interaction.MousePressAction",
+      "target" : "#addToCart",
+      "targetType" : "Button",
+      "duration" : 50.0,
+      "mouseButton" : "PRIMARY"
+    }, {
+      "@class" : "application.interaction.MouseMoveAction",
+      "target" : "#addToCart",
+      "targetType" : "Button",
+      "duration" : 1066.6666666666667,
+      "localX" : 41.0,
+      "localY" : 16.0
+    }, {
+      "@class" : "application.interaction.MouseReleaseAction",
+      "target" : "#addToCart",
+      "targetType" : "Button",
+      "duration" : 0.0,
+      "mouseButton" : "PRIMARY"
+    }, {
+      "@class" : "application.interaction.MouseClickAction",
+      "target" : "#addToCart",
+      "targetType" : "Button",
+      "duration" : 0.0,
+      "mouseButton" : "PRIMARY",
+      "clickCount" : 1
+    } ]
+  }, {
+    "mockup" : "05-einkaufswagen.fxml",
+    "actions" : [ {
+      "@class" : "application.interaction.MouseMoveAction",
+      "target" : "#toCheckout",
+      "targetType" : "Button",
+      "duration" : 1066.6666666666667,
+      "localX" : 81.0,
+      "localY" : 15.0
+    }, {
+      "@class" : "application.interaction.MousePressAction",
+      "target" : "#toCheckout",
+      "targetType" : "Button",
+      "duration" : 50.0,
+      "mouseButton" : "PRIMARY"
+    }, {
+      "@class" : "application.interaction.MouseMoveAction",
+      "target" : "#toCheckout",
+      "targetType" : "Button",
+      "duration" : 1066.6666666666667,
+      "localX" : 81.0,
+      "localY" : 15.0
+    }, {
+      "@class" : "application.interaction.MouseReleaseAction",
+      "target" : "#toCheckout",
+      "targetType" : "Button",
+      "duration" : 0.0,
+      "mouseButton" : "PRIMARY"
+    }, {
+      "@class" : "application.interaction.MouseClickAction",
+      "target" : "#toCheckout",
+      "targetType" : "Button",
+      "duration" : 0.0,
+      "mouseButton" : "PRIMARY",
+      "clickCount" : 1
+    } ]
+  }, {
+    "mockup" : "06-adresse.fxml",
+    "actions" : [ {
+      "@class" : "application.interaction.MouseMoveAction",
+      "target" : "#name",
+      "targetType" : "TextField",
+      "duration" : 1066.6666666666667,
+      "localX" : 281.0,
+      "localY" : 14.0
+    }, {
+      "@class" : "application.interaction.MousePressAction",
+      "target" : "#name",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "mouseButton" : "PRIMARY"
+    }, {
+      "@class" : "application.interaction.MouseMoveAction",
+      "target" : "#name",
+      "targetType" : "TextField",
+      "duration" : 1066.6666666666667,
+      "localX" : 281.0,
+      "localY" : 14.0
+    }, {
+      "@class" : "application.interaction.MouseReleaseAction",
+      "target" : "#name",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "mouseButton" : "PRIMARY"
+    }, {
+      "@class" : "application.interaction.MouseClickAction",
+      "target" : "#name",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "mouseButton" : "PRIMARY",
+      "clickCount" : 1
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#name",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "",
+      "keyCode" : "SHIFT"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#name",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "m",
+      "keyCode" : "M"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#name",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "M"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#name",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "m",
+      "keyCode" : "M"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#name",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "",
+      "keyCode" : "SHIFT"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#name",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "a",
+      "keyCode" : "A"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#name",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "a"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#name",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "a",
+      "keyCode" : "A"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#name",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "x",
+      "keyCode" : "X"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#name",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "x"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#name",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "x",
+      "keyCode" : "X"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#name",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : " ",
+      "keyCode" : "SPACE"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#name",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : " "
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#name",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : " ",
+      "keyCode" : "SPACE"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#name",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "",
+      "keyCode" : "SHIFT"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#name",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "m",
+      "keyCode" : "M"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#name",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "M"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#name",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "m",
+      "keyCode" : "M"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#name",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "",
+      "keyCode" : "SHIFT"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#name",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "u",
+      "keyCode" : "U"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#name",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "u"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#name",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "u",
+      "keyCode" : "U"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#name",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "s",
+      "keyCode" : "S"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#name",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "s"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#name",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "s",
+      "keyCode" : "S"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#name",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "t",
+      "keyCode" : "T"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#name",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "t"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#name",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "t",
+      "keyCode" : "T"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#name",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "e",
+      "keyCode" : "E"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#name",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "e"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#name",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "r",
+      "keyCode" : "R"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#name",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "r"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#name",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "e",
+      "keyCode" : "E"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#name",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "r",
+      "keyCode" : "R"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#name",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "m",
+      "keyCode" : "M"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#name",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "m"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#name",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "m",
+      "keyCode" : "M"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#name",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "a",
+      "keyCode" : "A"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#name",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "a"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#name",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "a",
+      "keyCode" : "A"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#name",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "n",
+      "keyCode" : "N"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#name",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "n"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#name",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "n",
+      "keyCode" : "N"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#name",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "n",
+      "keyCode" : "N"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#name",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "n"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#name",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "n",
+      "keyCode" : "N"
+    }, {
+      "@class" : "application.interaction.MouseMoveAction",
+      "target" : "#street",
+      "targetType" : "TextField",
+      "duration" : 1066.6666666666667,
+      "localX" : 280.0,
+      "localY" : 15.0
+    }, {
+      "@class" : "application.interaction.MousePressAction",
+      "target" : "#street",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "mouseButton" : "PRIMARY"
+    }, {
+      "@class" : "application.interaction.MouseMoveAction",
+      "target" : "#street",
+      "targetType" : "TextField",
+      "duration" : 1066.6666666666667,
+      "localX" : 280.0,
+      "localY" : 15.0
+    }, {
+      "@class" : "application.interaction.MouseReleaseAction",
+      "target" : "#street",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "mouseButton" : "PRIMARY"
+    }, {
+      "@class" : "application.interaction.MouseClickAction",
+      "target" : "#street",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "mouseButton" : "PRIMARY",
+      "clickCount" : 1
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#street",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "",
+      "keyCode" : "SHIFT"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#street",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "w",
+      "keyCode" : "W"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#street",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "W"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#street",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "",
+      "keyCode" : "SHIFT"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#street",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "w",
+      "keyCode" : "W"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#street",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "e",
+      "keyCode" : "E"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#street",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "e"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#street",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "e",
+      "keyCode" : "E"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#street",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "l",
+      "keyCode" : "L"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#street",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "l"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#street",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "l",
+      "keyCode" : "L"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#street",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "f",
+      "keyCode" : "F"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#street",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "f"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#street",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "e",
+      "keyCode" : "E"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#street",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "e"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#street",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "f",
+      "keyCode" : "F"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#street",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "e",
+      "keyCode" : "E"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#street",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "n",
+      "keyCode" : "N"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#street",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "n"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#street",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "n",
+      "keyCode" : "N"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#street",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "g",
+      "keyCode" : "G"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#street",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "g"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#street",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "g",
+      "keyCode" : "G"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#street",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "a",
+      "keyCode" : "A"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#street",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "a"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#street",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "a",
+      "keyCode" : "A"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#street",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "r",
+      "keyCode" : "R"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#street",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "r"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#street",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "r",
+      "keyCode" : "R"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#street",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "t",
+      "keyCode" : "T"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#street",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "t"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#street",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "e",
+      "keyCode" : "E"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#street",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "e"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#street",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "t",
+      "keyCode" : "T"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#street",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "e",
+      "keyCode" : "E"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#street",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "n",
+      "keyCode" : "N"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#street",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "n"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#street",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "n",
+      "keyCode" : "N"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#street",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : " ",
+      "keyCode" : "SPACE"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#street",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : " "
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#street",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : " ",
+      "keyCode" : "SPACE"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#street",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "1",
+      "keyCode" : "DIGIT1"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#street",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "1"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#street",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "1",
+      "keyCode" : "DIGIT1"
+    }, {
+      "@class" : "application.interaction.MouseMoveAction",
+      "target" : "#city",
+      "targetType" : "TextField",
+      "duration" : 1066.6666666666667,
+      "localX" : 278.0,
+      "localY" : 12.0
+    }, {
+      "@class" : "application.interaction.MousePressAction",
+      "target" : "#city",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "mouseButton" : "PRIMARY"
+    }, {
+      "@class" : "application.interaction.MouseMoveAction",
+      "target" : "#city",
+      "targetType" : "TextField",
+      "duration" : 1066.6666666666667,
+      "localX" : 278.0,
+      "localY" : 12.0
+    }, {
+      "@class" : "application.interaction.MouseReleaseAction",
+      "target" : "#city",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "mouseButton" : "PRIMARY"
+    }, {
+      "@class" : "application.interaction.MouseClickAction",
+      "target" : "#city",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "mouseButton" : "PRIMARY",
+      "clickCount" : 1
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#city",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "",
+      "keyCode" : "SHIFT"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#city",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "h",
+      "keyCode" : "H"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#city",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "H"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#city",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "h",
+      "keyCode" : "H"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#city",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "",
+      "keyCode" : "SHIFT"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#city",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "a",
+      "keyCode" : "A"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#city",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "a"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#city",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "a",
+      "keyCode" : "A"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#city",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "n",
+      "keyCode" : "N"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#city",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "n"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#city",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "n",
+      "keyCode" : "N"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#city",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "n",
+      "keyCode" : "N"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#city",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "n"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#city",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "n",
+      "keyCode" : "N"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#city",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "o",
+      "keyCode" : "O"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#city",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "o"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#city",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "o",
+      "keyCode" : "O"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#city",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "v",
+      "keyCode" : "V"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#city",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "v"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#city",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "v",
+      "keyCode" : "V"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#city",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "e",
+      "keyCode" : "E"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#city",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "e"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#city",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "r",
+      "keyCode" : "R"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#city",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "r"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#city",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "e",
+      "keyCode" : "E"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#city",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "r",
+      "keyCode" : "R"
+    }, {
+      "@class" : "application.interaction.MouseMoveAction",
+      "target" : "#zipcode",
+      "targetType" : "TextField",
+      "duration" : 1066.6666666666667,
+      "localX" : 281.0,
+      "localY" : 15.0
+    }, {
+      "@class" : "application.interaction.MousePressAction",
+      "target" : "#zipcode",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "mouseButton" : "PRIMARY"
+    }, {
+      "@class" : "application.interaction.MouseMoveAction",
+      "target" : "#zipcode",
+      "targetType" : "TextField",
+      "duration" : 1066.6666666666667,
+      "localX" : 281.0,
+      "localY" : 15.0
+    }, {
+      "@class" : "application.interaction.MouseReleaseAction",
+      "target" : "#zipcode",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "mouseButton" : "PRIMARY"
+    }, {
+      "@class" : "application.interaction.MouseClickAction",
+      "target" : "#zipcode",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "mouseButton" : "PRIMARY",
+      "clickCount" : 1
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#zipcode",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "3",
+      "keyCode" : "NUMPAD3"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#zipcode",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "3"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#zipcode",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "3",
+      "keyCode" : "NUMPAD3"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#zipcode",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "0",
+      "keyCode" : "NUMPAD0"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#zipcode",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "0"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#zipcode",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "0",
+      "keyCode" : "NUMPAD0"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#zipcode",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "1",
+      "keyCode" : "NUMPAD1"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#zipcode",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "1"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#zipcode",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "1",
+      "keyCode" : "NUMPAD1"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#zipcode",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "6",
+      "keyCode" : "NUMPAD6"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#zipcode",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "6"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#zipcode",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "6",
+      "keyCode" : "NUMPAD6"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#zipcode",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "7",
+      "keyCode" : "NUMPAD7"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#zipcode",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "7"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#zipcode",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "7",
+      "keyCode" : "NUMPAD7"
+    }, {
+      "@class" : "application.interaction.MouseMoveAction",
+      "target" : "#next",
+      "targetType" : "Button",
+      "duration" : 1066.6666666666667,
+      "localX" : 51.0,
+      "localY" : 14.0
+    }, {
+      "@class" : "application.interaction.MousePressAction",
+      "target" : "#next",
+      "targetType" : "Button",
+      "duration" : 50.0,
+      "mouseButton" : "PRIMARY"
+    }, {
+      "@class" : "application.interaction.MouseMoveAction",
+      "target" : "#next",
+      "targetType" : "Button",
+      "duration" : 1066.6666666666667,
+      "localX" : 51.0,
+      "localY" : 14.0
+    }, {
+      "@class" : "application.interaction.MouseReleaseAction",
+      "target" : "#next",
+      "targetType" : "Button",
+      "duration" : 0.0,
+      "mouseButton" : "PRIMARY"
+    }, {
+      "@class" : "application.interaction.MouseClickAction",
+      "target" : "#next",
+      "targetType" : "Button",
+      "duration" : 0.0,
+      "mouseButton" : "PRIMARY",
+      "clickCount" : 1
+    } ]
+  }, {
+    "mockup" : "07-bankkonto.fxml",
+    "actions" : [ {
+      "@class" : "application.interaction.MouseMoveAction",
+      "target" : "#bic",
+      "targetType" : "TextField",
+      "duration" : 1066.6666666666667,
+      "localX" : 257.0,
+      "localY" : 13.0
+    }, {
+      "@class" : "application.interaction.MousePressAction",
+      "target" : "#bic",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "mouseButton" : "PRIMARY"
+    }, {
+      "@class" : "application.interaction.MouseMoveAction",
+      "target" : "#bic",
+      "targetType" : "TextField",
+      "duration" : 1066.6666666666667,
+      "localX" : 257.0,
+      "localY" : 13.0
+    }, {
+      "@class" : "application.interaction.MouseReleaseAction",
+      "target" : "#bic",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "mouseButton" : "PRIMARY"
+    }, {
+      "@class" : "application.interaction.MouseClickAction",
+      "target" : "#bic",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "mouseButton" : "PRIMARY",
+      "clickCount" : 1
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#bic",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "0",
+      "keyCode" : "NUMPAD0"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#bic",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "0"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#bic",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "0",
+      "keyCode" : "NUMPAD0"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#bic",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "1",
+      "keyCode" : "NUMPAD1"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#bic",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "1"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#bic",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "1",
+      "keyCode" : "NUMPAD1"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#bic",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "2",
+      "keyCode" : "NUMPAD2"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#bic",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "2"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#bic",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "2",
+      "keyCode" : "NUMPAD2"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#bic",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "3",
+      "keyCode" : "NUMPAD3"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#bic",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "3"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#bic",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "3",
+      "keyCode" : "NUMPAD3"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#bic",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "4",
+      "keyCode" : "NUMPAD4"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#bic",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "4"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#bic",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "4",
+      "keyCode" : "NUMPAD4"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#bic",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "5",
+      "keyCode" : "NUMPAD5"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#bic",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "5"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#bic",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "5",
+      "keyCode" : "NUMPAD5"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#bic",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "6",
+      "keyCode" : "NUMPAD6"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#bic",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "6"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#bic",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "6",
+      "keyCode" : "NUMPAD6"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#bic",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "7",
+      "keyCode" : "NUMPAD7"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#bic",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "7"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#bic",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "7",
+      "keyCode" : "NUMPAD7"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#bic",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "8",
+      "keyCode" : "NUMPAD8"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#bic",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "8"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#bic",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "8",
+      "keyCode" : "NUMPAD8"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#bic",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "9",
+      "keyCode" : "NUMPAD9"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#bic",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "9"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#bic",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "9",
+      "keyCode" : "NUMPAD9"
+    }, {
+      "@class" : "application.interaction.MouseMoveAction",
+      "target" : "#iban",
+      "targetType" : "TextField",
+      "duration" : 1066.6666666666667,
+      "localX" : 276.0,
+      "localY" : 16.0
+    }, {
+      "@class" : "application.interaction.MousePressAction",
+      "target" : "#iban",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "mouseButton" : "PRIMARY"
+    }, {
+      "@class" : "application.interaction.MouseMoveAction",
+      "target" : "#iban",
+      "targetType" : "TextField",
+      "duration" : 1066.6666666666667,
+      "localX" : 276.0,
+      "localY" : 16.0
+    }, {
+      "@class" : "application.interaction.MouseReleaseAction",
+      "target" : "#iban",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "mouseButton" : "PRIMARY"
+    }, {
+      "@class" : "application.interaction.MouseClickAction",
+      "target" : "#iban",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "mouseButton" : "PRIMARY",
+      "clickCount" : 1
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#iban",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "",
+      "keyCode" : "SHIFT"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#iban",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "d",
+      "keyCode" : "D"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#iban",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "D"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#iban",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "d",
+      "keyCode" : "D"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#iban",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "e",
+      "keyCode" : "E"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#iban",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "E"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#iban",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "e",
+      "keyCode" : "E"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#iban",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "",
+      "keyCode" : "SHIFT"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#iban",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "9",
+      "keyCode" : "NUMPAD9"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#iban",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "9"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#iban",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "9",
+      "keyCode" : "NUMPAD9"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#iban",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "8",
+      "keyCode" : "NUMPAD8"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#iban",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "8"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#iban",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "8",
+      "keyCode" : "NUMPAD8"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#iban",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "7",
+      "keyCode" : "NUMPAD7"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#iban",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "7"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#iban",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "7",
+      "keyCode" : "NUMPAD7"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#iban",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "6",
+      "keyCode" : "NUMPAD6"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#iban",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "6"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#iban",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "6",
+      "keyCode" : "NUMPAD6"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#iban",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "5",
+      "keyCode" : "NUMPAD5"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#iban",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "5"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#iban",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "5",
+      "keyCode" : "NUMPAD5"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#iban",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "4",
+      "keyCode" : "NUMPAD4"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#iban",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "4"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#iban",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "4",
+      "keyCode" : "NUMPAD4"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#iban",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "3",
+      "keyCode" : "NUMPAD3"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#iban",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "3"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#iban",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "3",
+      "keyCode" : "NUMPAD3"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#iban",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "2",
+      "keyCode" : "NUMPAD2"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#iban",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "2"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#iban",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "2",
+      "keyCode" : "NUMPAD2"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#iban",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "1",
+      "keyCode" : "NUMPAD1"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#iban",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "1"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#iban",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "1",
+      "keyCode" : "NUMPAD1"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#iban",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "0",
+      "keyCode" : "NUMPAD0"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#iban",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "0"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#iban",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "0",
+      "keyCode" : "NUMPAD0"
+    }, {
+      "@class" : "application.interaction.MouseMoveAction",
+      "target" : "#owner",
+      "targetType" : "TextField",
+      "duration" : 1066.6666666666667,
+      "localX" : 262.0,
+      "localY" : 15.0
+    }, {
+      "@class" : "application.interaction.MousePressAction",
+      "target" : "#owner",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "mouseButton" : "PRIMARY"
+    }, {
+      "@class" : "application.interaction.MouseMoveAction",
+      "target" : "#owner",
+      "targetType" : "TextField",
+      "duration" : 1066.6666666666667,
+      "localX" : 262.0,
+      "localY" : 15.0
+    }, {
+      "@class" : "application.interaction.MouseReleaseAction",
+      "target" : "#owner",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "mouseButton" : "PRIMARY"
+    }, {
+      "@class" : "application.interaction.MouseClickAction",
+      "target" : "#owner",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "mouseButton" : "PRIMARY",
+      "clickCount" : 1
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#owner",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "",
+      "keyCode" : "SHIFT"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#owner",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "m",
+      "keyCode" : "M"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#owner",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "M"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#owner",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "",
+      "keyCode" : "SHIFT"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#owner",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "m",
+      "keyCode" : "M"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#owner",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "a",
+      "keyCode" : "A"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#owner",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "a"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#owner",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "a",
+      "keyCode" : "A"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#owner",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "x",
+      "keyCode" : "X"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#owner",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "x"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#owner",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "x",
+      "keyCode" : "X"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#owner",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : " ",
+      "keyCode" : "SPACE"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#owner",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : " "
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#owner",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : " ",
+      "keyCode" : "SPACE"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#owner",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "",
+      "keyCode" : "SHIFT"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#owner",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "m",
+      "keyCode" : "M"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#owner",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "M"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#owner",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "m",
+      "keyCode" : "M"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#owner",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "",
+      "keyCode" : "SHIFT"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#owner",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "u",
+      "keyCode" : "U"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#owner",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "u"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#owner",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "s",
+      "keyCode" : "S"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#owner",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "s"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#owner",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "u",
+      "keyCode" : "U"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#owner",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "s",
+      "keyCode" : "S"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#owner",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "t",
+      "keyCode" : "T"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#owner",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "t"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#owner",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "t",
+      "keyCode" : "T"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#owner",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "e",
+      "keyCode" : "E"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#owner",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "e"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#owner",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "r",
+      "keyCode" : "R"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#owner",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "r"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#owner",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "e",
+      "keyCode" : "E"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#owner",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "r",
+      "keyCode" : "R"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#owner",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "m",
+      "keyCode" : "M"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#owner",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "m"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#owner",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "m",
+      "keyCode" : "M"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#owner",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "a",
+      "keyCode" : "A"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#owner",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "a"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#owner",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "a",
+      "keyCode" : "A"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#owner",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "n",
+      "keyCode" : "N"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#owner",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "n"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#owner",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "n",
+      "keyCode" : "N"
+    }, {
+      "@class" : "application.interaction.KeyPressAction",
+      "target" : "#owner",
+      "targetType" : "TextField",
+      "duration" : 50.0,
+      "text" : "n",
+      "keyCode" : "N"
+    }, {
+      "@class" : "application.interaction.KeyTypeAction",
+      "target" : "#owner",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "character" : "n"
+    }, {
+      "@class" : "application.interaction.KeyReleaseAction",
+      "target" : "#owner",
+      "targetType" : "TextField",
+      "duration" : 0.0,
+      "text" : "n",
+      "keyCode" : "N"
+    }, {
+      "@class" : "application.interaction.MouseMoveAction",
+      "target" : "#next",
+      "targetType" : "Button",
+      "duration" : 1066.6666666666667,
+      "localX" : 53.0,
+      "localY" : 17.0
+    }, {
+      "@class" : "application.interaction.MousePressAction",
+      "target" : "#next",
+      "targetType" : "Button",
+      "duration" : 50.0,
+      "mouseButton" : "PRIMARY"
+    }, {
+      "@class" : "application.interaction.MouseMoveAction",
+      "target" : "#next",
+      "targetType" : "Button",
+      "duration" : 1066.6666666666667,
+      "localX" : 53.0,
+      "localY" : 17.0
+    }, {
+      "@class" : "application.interaction.MouseReleaseAction",
+      "target" : "#next",
+      "targetType" : "Button",
+      "duration" : 0.0,
+      "mouseButton" : "PRIMARY"
+    }, {
+      "@class" : "application.interaction.MouseClickAction",
+      "target" : "#next",
+      "targetType" : "Button",
+      "duration" : 0.0,
+      "mouseButton" : "PRIMARY",
+      "clickCount" : 1
+    } ]
+  }, {
+    "mockup" : "08-bestellung.fxml",
+    "actions" : [ {
+      "@class" : "application.interaction.MouseMoveAction",
+      "target" : "#premium",
+      "targetType" : "RadioButton",
+      "duration" : 1066.6666666666667,
+      "localX" : 8.0,
+      "localY" : 9.0
+    }, {
+      "@class" : "application.interaction.MousePressAction",
+      "target" : "#premium",
+      "targetType" : "RadioButton",
+      "duration" : 50.0,
+      "mouseButton" : "PRIMARY"
+    }, {
+      "@class" : "application.interaction.MouseMoveAction",
+      "target" : "#premium",
+      "targetType" : "RadioButton",
+      "duration" : 1066.6666666666667,
+      "localX" : 8.0,
+      "localY" : 9.0
+    }, {
+      "@class" : "application.interaction.MouseReleaseAction",
+      "target" : "#premium",
+      "targetType" : "RadioButton",
+      "duration" : 0.0,
+      "mouseButton" : "PRIMARY"
+    }, {
+      "@class" : "application.interaction.MouseClickAction",
+      "target" : "#premium",
+      "targetType" : "RadioButton",
+      "duration" : 0.0,
+      "mouseButton" : "PRIMARY",
+      "clickCount" : 1
+    } ]
+  }, {
+    "mockup" : "08-bestellung-2.fxml",
+    "actions" : [ {
+      "@class" : "application.interaction.MouseMoveAction",
+      "target" : "#buyNow",
+      "targetType" : "Button",
+      "duration" : 1066.6666666666667,
+      "localX" : 73.0,
+      "localY" : 18.0
+    }, {
+      "@class" : "application.interaction.MousePressAction",
+      "target" : "#buyNow",
+      "targetType" : "Button",
+      "duration" : 50.0,
+      "mouseButton" : "PRIMARY"
+    }, {
+      "@class" : "application.interaction.MouseMoveAction",
+      "target" : "#buyNow",
+      "targetType" : "Button",
+      "duration" : 1066.6666666666667,
+      "localX" : 73.0,
+      "localY" : 18.0
+    }, {
+      "@class" : "application.interaction.MouseReleaseAction",
+      "target" : "#buyNow",
+      "targetType" : "Button",
+      "duration" : 0.0,
+      "mouseButton" : "PRIMARY"
+    }, {
+      "@class" : "application.interaction.MouseClickAction",
+      "target" : "#buyNow",
+      "targetType" : "Button",
+      "duration" : 0.0,
+      "mouseButton" : "PRIMARY",
+      "clickCount" : 1
+    } ]
+  }, {
+    "mockup" : "09-abschluss.fxml",
+    "actions" : [ ]
+  } ]
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" styleClass="wireframe" stylesheets="@Controls.css" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="searchText" layoutX="128.0" layoutY="32.0" prefHeight="32.0" prefWidth="500.0" text="usb stick" />
+      <Button fx:id="searchButton" layoutX="638.0" layoutY="33.0" mnemonicParsing="false" text="Suchen" />
+      <Pane layoutX="24.0" layoutY="17.0" prefHeight="62.0" prefWidth="82.0" styleClass="imgBox">
+         <children>
+            <Label layoutX="25.0" layoutY="21.0" text="Logo">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Hyperlink layoutX="10.0" layoutY="128.0" text="Mein Kundenkonto" />
+      <Hyperlink layoutX="11.0" layoutY="161.0" text="Meine Wunschliste" />
+      <Hyperlink layoutX="13.0" layoutY="194.0" text="Einkaufswagen (0)" />
+      <Pane layoutX="163.0" layoutY="137.0" prefHeight="92.0" prefWidth="115.0" styleClass="imgBox">
+         <children>
+            <Label layoutX="35.0" layoutY="36.0" text="Artikel">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Label layoutX="157.0" layoutY="241.0" text="SanDisk Ultra Fit 64GB" />
+      <Label layoutX="151.0" layoutY="262.0" text="29,99 €, Lieferung morgen" />
+      <ImageView layoutX="178.0" layoutY="286.0">
+         <image>
+            <Image url="@images/bewertung.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="328.0" layoutY="204.0" text="+ Handliches Format" />
+      <Label layoutX="328.0" layoutY="228.0" text="+ Sehr stabil" />
+      <Label layoutX="328.0" layoutY="138.0" text="+ Größe: 64 GB" />
+      <Label layoutX="328.0" layoutY="160.0" text="+ USB Type-C Anschluss" />
+      <Label layoutX="328.0" layoutY="182.0" text="+ Übertragungsraten bis zu 500MB/s !" />
+      <Button fx:id="addToCart" layoutX="548.0" layoutY="147.0" mnemonicParsing="false" text="In den Einkaufswagen" />
+      <Label layoutX="165.0" layoutY="349.0" text="Bewertungen:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="165.0" layoutY="385.0" prefHeight="62.0" prefWidth="399.0" text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua." wrapText="true" />
+      <Label layoutX="165.0" layoutY="461.0" prefHeight="62.0" prefWidth="399.0" text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua." wrapText="true" />
+   </children>
+</Pane>

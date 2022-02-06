@@ -1,0 +1,71 @@
+.wireframe {
+    -fx-background-color: #000000, #ffffff;
+    -fx-background-insets: 0, 2;
+}
+
+.wireframe Button,
+.wireframe CheckBox > .box,
+.wireframe ChoiceBox,
+.wireframe ComboBox,
+.wireframe ListView,
+.wireframe Menu,
+.wireframe MenuBar,
+.wireframe MenuItem,
+.wireframe Pagination,
+.wireframe PasswordField,
+.wireframe ProgressBar > .track,
+.wireframe RadioButton > .radio,
+.wireframe TableColumn,
+.wireframe TableView,
+.wireframe TextArea .content,
+.wireframe TextField,
+.wireframe .imgBox {
+    -fx-background-color: #000000, #ffffff;
+    -fx-background-insets: 0, 2;
+}
+
+.wireframe Button:focused,
+.wireframe CheckBox:focused > .box,
+.wireframe ChoiceBox:focused,
+.wireframe ComboBox:focused,
+.wireframe ListView:focused,
+.wireframe Menu:focused,
+.wireframe MenuBar:focused,
+.wireframe MenuItem:focused,
+.wireframe Pagination:focused,
+.wireframe PasswordField:focused,
+.wireframe ProgressBar:focused > .track,
+.wireframe RadioButton:focused > .radio,
+.wireframe TableColumn:focused,
+.wireframe TableView:focused,
+.wireframe TextArea:focused .content,
+.wireframe TextField:focused {
+    -fx-background-color: -fx-focus-color, #ffffff;
+}
+
+.wireframe Button {
+    -fx-padding: 5 35 5 35;
+    -fx-text-fill: black;
+    -fx-font-size: 14px;
+}
+
+.wireframe  Pagination .number-button {
+    -fx-background-color: #000000, #ffffff;
+    -fx-background-insets: 0, 2;
+    -fx-text-fill: black;
+}
+.wireframe  Pagination .number-button:selected {
+    -fx-background-color: -fx-focus-color, #ffffff;
+}
+
+.wireframe TextArea > .scroll-pane {
+    -fx-effect: null;
+}
+
+.wireframe ToggleButton {
+    -fx-background-color: #000000, #dddddd;
+    -fx-background-insets: 0, 2;
+}
+.wireframe ToggleButton:selected {
+    -fx-background-color: #000000, #ffffff;
+}

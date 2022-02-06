@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.TextArea?>
+
+<fx:root type="DialogPane" styleClass="scenario-text-dialog" stylesheets="@../application.css" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+   <content>
+      <TextArea fx:id="scenarioText" editable="false" prefHeight="400.0" prefWidth="600.0" />
+   </content>
+</fx:root>

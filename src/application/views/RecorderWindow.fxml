@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import application.views.controls.MockupChooser?>
+<?import application.views.controls.MockupPane?>
+<?import application.views.controls.RecorderTimeline?>
+<?import application.views.controls.RecorderToolBar?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.input.KeyCodeCombination?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane prefHeight="768.0" prefWidth="1024.0" styleClass="recorder-window" stylesheets="@../application.css" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controllers.RecorderWindowController">
+   <center>
+      <SplitPane dividerPositions="0.6" orientation="VERTICAL">
+        <items>
+            <SplitPane dividerPositions="0.3">
+              <items>
+                <MockupChooser fx:id="mockupChooser" />
+                <BorderPane>
+                  <center>
+                    <MockupPane fx:id="mockupPane" />
+                  </center>
+                  <bottom>
+                    <VBox>
+                      <children>
+                        <RecorderToolBar fx:id="recorderToolBar" disable="true" />
+                        <ProgressBar fx:id="recorderProgressBar" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" progress="0.0" styleClass="recorder-progress" />
+                      </children>
+                    </VBox>
+                  </bottom>
+                </BorderPane>
+              </items>
+            </SplitPane>
+          <RecorderTimeline fx:id="recorderTimeline" />
+        </items>
+      </SplitPane>
+   </center>
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="Datei">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#handleNewScenario" text="Neues Szenario">
+                <accelerator>
+                  <KeyCodeCombination alt="UP" code="N" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                </accelerator>
+              </MenuItem>
+              <MenuItem mnemonicParsing="false" onAction="#handleLoadScenario" text="Szenario öffnen">
+                <accelerator>
+                  <KeyCodeCombination alt="UP" code="O" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                </accelerator>
+              </MenuItem>
+              <MenuItem fx:id="openProjectDirectoryMenuItem" mnemonicParsing="false" onAction="#handleOpenProjectDirectory" text="Projekt Ordner öffnen">
+                <accelerator>
+                  <KeyCodeCombination alt="UP" code="P" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                </accelerator>
+              </MenuItem>
+              <Menu fx:id="projectScenariosMenu" mnemonicParsing="false" text="Projekt Szenarios öffnen" />
+              <SeparatorMenuItem mnemonicParsing="false" />
+              <MenuItem fx:id="saveProjectMenuItem" disable="true" mnemonicParsing="false" onAction="#handleSaveScenario" text="Speichern">
+                <accelerator>
+                 <KeyCodeCombination alt="UP" code="S" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                </accelerator>
+              </MenuItem>
+              <MenuItem fx:id="saveAsProjectMenuItem" disable="true" mnemonicParsing="false" onAction="#handleSaveAsScenario" text="Speichern unter...">
+                <accelerator>
+                  <KeyCodeCombination alt="UP" code="S" control="DOWN" meta="UP" shift="DOWN" shortcut="UP" />
+                </accelerator>
+              </MenuItem>
+              <SeparatorMenuItem mnemonicParsing="false" />
+              <MenuItem mnemonicParsing="false" onAction="#handleExit" text="Beenden" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Mockup">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#handleOpenSceneBuilder" text="SceneBuilder öffnen">
+                <accelerator>
+                  <KeyCodeCombination alt="UP" code="B" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                </accelerator>
+              </MenuItem>
+              <MenuItem mnemonicParsing="false" onAction="#handleReloadMockup" text="Mockup neu laden">
+                <accelerator>
+                   <KeyCodeCombination alt="UP" code="M" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                </accelerator>
+              </MenuItem>
+              <MenuItem mnemonicParsing="false" onAction="#handleCreateMockupWithImage" text="Mockup aus Bild erstellen">
+                <accelerator>
+                  <KeyCodeCombination alt="UP" code="I" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                </accelerator>
+              </MenuItem>
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Timeline">
+            <items>
+              <MenuItem fx:id="togglePlayingMenuItem" mnemonicParsing="false" onAction="#handleTogglePlaying" text="Abspielen / Anhalten">
+                <accelerator>
+                   <KeyCodeCombination alt="UP" code="SPACE" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                </accelerator>
+              </MenuItem>
+              <MenuItem fx:id="toggleRecordingMenuItem" mnemonicParsing="false" onAction="#handleToggleRecording" text="Aufnahme beginnen / beenden">
+                <accelerator>
+                   <KeyCodeCombination alt="UP" code="R" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                </accelerator>
+              </MenuItem>
+              <SeparatorMenuItem mnemonicParsing="false" />
+              <MenuItem fx:id="nextItemMenuItem" mnemonicParsing="false" onAction="#handleNextItem" text="Nächstes Item auswählen">
+                <accelerator>
+                   <KeyCodeCombination alt="UP" code="RIGHT" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                </accelerator>
+              </MenuItem>
+              <MenuItem fx:id="previousItemMenuItem" mnemonicParsing="false" onAction="#handlePreviousItem" text="Vorheriges Item auswählen">
+                <accelerator>
+                   <KeyCodeCombination alt="UP" code="LEFT" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                </accelerator>
+              </MenuItem>
+              <SeparatorMenuItem mnemonicParsing="false" />
+              <MenuItem fx:id="toBeginMenuItem" mnemonicParsing="false" onAction="#handleToBegin" text="Zum Anfang der Timeline springen">
+                <accelerator>
+                   <KeyCodeCombination alt="UP" code="Q" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                </accelerator>
+              </MenuItem>
+              <MenuItem fx:id="toEndMenuItem" mnemonicParsing="false" onAction="#handleToEnd" text="Zum Ende der Timeline springen">
+                <accelerator>
+                   <KeyCodeCombination alt="UP" code="E" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                </accelerator>
+              </MenuItem>
+              <SeparatorMenuItem mnemonicParsing="false" />
+              <MenuItem fx:id="moveRightItemMenuItem" mnemonicParsing="false" onAction="#handleMoveRightItem" text="Aktives Item nach rechts verschieben">
+                <accelerator>
+                   <KeyCodeCombination alt="UP" code="RIGHT" control="DOWN" meta="UP" shift="DOWN" shortcut="UP" />
+                </accelerator>
+              </MenuItem>
+              <MenuItem fx:id="moveLeftItemMenuItem" mnemonicParsing="false" onAction="#handleMoveLeftItem" text="Aktives Item nach links verschieben">
+                <accelerator>
+                   <KeyCodeCombination alt="UP" code="LEFT" control="DOWN" meta="UP" shift="DOWN" shortcut="UP" />
+                </accelerator>
+              </MenuItem>
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Export">
+            <items>
+              <MenuItem fx:id="exportTextMenuItem" mnemonicParsing="false" onAction="#handleTextExport" text="Szenario als Text exportieren">
+                <accelerator>
+                  <KeyCodeCombination alt="UP" code="T" control="DOWN" meta="UP" shift="DOWN" shortcut="UP" />
+                </accelerator>
+              </MenuItem>
+              <MenuItem fx:id="exportImageMenuItem" mnemonicParsing="false" onAction="#handleImageExport" text="Szenario als Bilder exportieren">
+                <accelerator>
+                  <KeyCodeCombination alt="UP" code="B" control="DOWN" meta="UP" shift="DOWN" shortcut="UP" />
+                </accelerator>
+              </MenuItem>
+              <MenuItem fx:id="exportVideoMenuItem" mnemonicParsing="false" onAction="#handleVideoExport" text="Szenario als Video exportieren">
+                <accelerator>
+                  <KeyCodeCombination alt="UP" code="V" control="DOWN" meta="UP" shift="DOWN" shortcut="UP" />
+                </accelerator>
+              </MenuItem>
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Hilfe">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#handleAboutDialog" text="Über" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+</BorderPane>

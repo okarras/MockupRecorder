@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<fx:root prefHeight="400.0" prefWidth="600.0" styleClass="about-dialog" stylesheets="@../../application.css" type="DialogPane" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <content>
+      <Pane>
+         <children>
+            <ImageView fitHeight="180.0" fitWidth="180.0" layoutX="210.0" layoutY="14.0" styleClass="logo">
+               <image>
+                  <Image url="@../../images/logo.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="232.0" layoutY="240.0" text="Developer: Lennart Glauer" />
+            <Label layoutX="227.0" layoutY="208.0" text="Project:  MockupRecorder" />
+            <Label layoutX="193.0" layoutY="224.0" text="Project lead:  Dr. rer. nat. Oliver Karras" wrapText="true" />
+            <Label layoutX="207.0" layoutY="270.0" text="Verwendete Bilder und Libraries:">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="241.0" layoutY="290.0" text="Bilder von icons8.com" />
+            <Label layoutX="241.0" layoutY="310.0" text="Jackson JSON Parser" />
+            <Label layoutX="211.0" layoutY="330.0" text="JavaCV Schnittstelle für FFmpeg" />
+         </children>
+      </Pane>
+   </content>
+</fx:root>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+
+<fx:root onContextMenuRequested="#handleContextMenu" onDragDetected="#handleDragDetected" onDragDropped="#handleDragDropped" onDragEntered="#handleDragEntered" onDragExited="#handleDragExited" onDragOver="#handleDragOver" onMouseClicked="#handleClicked" type="BorderPane" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+  <center>
+    <ImageView fx:id="previewImage" fitHeight="240.0" fitWidth="320.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER" />
+  </center>
+  <bottom>
+    <Label fx:id="fileNameLabel" mouseTransparent="true" BorderPane.alignment="CENTER" />
+   </bottom>
+</fx:root>
