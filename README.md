@@ -77,7 +77,7 @@ We use [Visual Studio Code](https://code.visualstudio.com/) for developement and
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-The application of ContiVQAExp is shown in the following [document](Screenshots/README.md) with screenshots and descriptions.
+The application of MockupRecorder is shown in the following [document](example/README.md) with a screenshot, description, and an example.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
