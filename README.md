@@ -143,6 +143,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-[Lennart Glauer](https://www.linkedin.com/in/lennart-glauer/) as main developer of MockupRecorder 
+[Lennart Glauer](https://www.linkedin.com/in/lennart-glauer/) as main developer of MockupRecorder.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
