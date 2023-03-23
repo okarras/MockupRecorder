@@ -86,7 +86,7 @@ The application of MockupRecorder is shown in the following [document](example/R
 
 If you want to cite this project, we suggest to use either the citation provided above or the following reference:
 
->Oliver Karras, Carolin Unger-Windeler, Lennart GLauer and Kurt Schneider<br/>
+>Oliver Karras, Carolin Unger-Windeler, Lennart Glauer and Kurt Schneider<br/>
 >[__Video as a By-Product of Digital Prototyping: Capturing the Dynamic Aspect of Interaction__](https://ieeexplore.ieee.org/abstract/document/8054839)<br/>
 >In: IEEE 25th International Requirements Engineering Conference Workshops (REW), IEEE, 2017.
 
