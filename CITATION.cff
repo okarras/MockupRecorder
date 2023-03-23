@@ -1,0 +1,26 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: MockupRecorder
+message: Please cite this software using these metadata.
+type: software
+authors:
+  - given-names: Oliver
+    family-names: Karras
+    email: me@oliver-karras.de
+    orcid: 'https://orcid.org/0000-0001-5336-6899'
+identifiers:
+  - type: doi
+    value: 10.1109/REW.2017.16
+    description: Corresponding publication
+  - type: doi
+    value: 10.15488/11987
+    description: Corresponding publication
+repository-code: 'https://github.com/okarras/MockupRecorder'
+keywords:
+  - video
+  - recorder
+  - interaction
+  - mockups
+license: MIT
