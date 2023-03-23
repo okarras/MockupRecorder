@@ -84,7 +84,7 @@ The application of MockupRecorder is shown in the following [document](example/R
 <!-- PUBLICATIONS -->
 ## Publications
 
-If you want to cite this project, we suggest the following reference:
+If you want to cite this project, we suggest to use either the citation provided above or the following reference:
 
 >Oliver Karras, Carolin Unger-Windeler, Lennart GLauer and Kurt Schneider<br/>
 >[__Video as a By-Product of Digital Prototyping: Capturing the Dynamic Aspect of Interaction__](https://ieeexplore.ieee.org/abstract/document/8054839)<br/>
@@ -93,7 +93,7 @@ If you want to cite this project, we suggest the following reference:
 The details of the implementation of MockupRecorder are reported in the following reference:
 
 >Lennart Glauer<br/>
->__Specification of GUI Interactions as Videos__<br/>
+>[__Specification of GUI Interactions as Videos__](http://doi.org/10.15488/11987)<br/>
 >Leibniz Universität Hannover, 2017.
 
 The details of the "Video as a By-Product" approach, on which MockupRecorder is based, are reported in the following reference:
